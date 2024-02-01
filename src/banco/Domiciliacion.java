@@ -1,4 +1,4 @@
-package Banco;
+package banco;
 
 public class Domiciliacion {
     private Cuenta cuenta;
