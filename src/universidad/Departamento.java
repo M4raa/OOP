@@ -5,52 +5,47 @@ import java.util.Set;
 
 public class Departamento {
     private String nombre;
-    private Catedra catedra;
-    private Profesor profesor;
-    private Set<Area> areas;
+    private Area area;
+    private Set<Catedra> catedra;
+    private Set<Profesor> profesores;
 
-    public Departamento(String nombre,Catedra catedra, Profesor profesor) {
+    public Departamento(String nombre, Area area) {
         this.nombre = nombre;
-        this.catedra = catedra;
-        this.profesor = profesor;
-        this.areas = new HashSet<>();
+        this.area = area;
+        this.catedra = new HashSet<>();
+        this.profesores = new HashSet<>();
     }
 
     public String getNombre() {
         return nombre;
     }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-    public Catedra getCatedra() {
+    public Set<Catedra> getCatedra() {
         return catedra;
     }
-
-    public void setCatedra(Catedra catedra) {
+    public void setCatedra(Set<Catedra> catedra) {
         this.catedra = catedra;
     }
-
-    public Profesor getProfesor() {
-        return profesor;
+    public void addCatedra(Catedra catedra) {
+        this.catedra.add(catedra);
     }
-
-    public void setProfesor(Profesor profesor) {
-        this.profesor = profesor;
+    public Set<Profesor> getProfesor() {
+        return profesores;
     }
-
-    public Set<Area> getAreas() {
-        return areas;
+    public void setProfesor(Set<Profesor> profesores) {
+        this.profesores = profesores;
     }
-
-    public void setAreas(Set<Area> areas) {
-        this.areas = areas;
+    public void addProfesor(Profesor profesores) {
+        this.profesores.add(profesores);
     }
-    public void addAreas(Area areas) {
-        this.areas.add(areas);
+    public Area getArea() {
+        return area;
     }
-
+    public void setArea(Area area) {
+        this.area = area;
+    }
     @Override
     public String toString() {
         return " [ Departamento: " + nombre + " ] ";

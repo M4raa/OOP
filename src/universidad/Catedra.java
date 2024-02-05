@@ -6,13 +6,13 @@ import java.util.Set;
 public class Catedra {
     private String nombre;
     private Facultad facultad;
-    private Set<Departamento> departamentos;
+    private Departamento departamento;
     private Set<Profesor> profesores;
 
-    public Catedra(String nombre, Facultad facultad) {
+    public Catedra(String nombre, Facultad facultad, Departamento departamento) {
         this.nombre = nombre;
         this.facultad = facultad;
-        this.departamentos = new HashSet<>();
+        this.departamento = departamento;
         this.profesores = new HashSet<>();
     }
 
@@ -28,11 +28,11 @@ public class Catedra {
     public void setFacultad(Facultad facultad) {
         this.facultad = facultad;
     }
-    public Set<Departamento> getDepartamentos() {
-        return departamentos;
+    public Departamento getDepartamento() {
+        return departamento;
     }
-    public void setDepartamentos(Set<Departamento> departamentos) {
-        this.departamentos = departamentos;
+    public void setDepartamento(Departamento departamento) {
+        this.departamento = departamento;
     }
     public Set<Profesor> getProfesores() {
         return profesores;
@@ -40,9 +40,11 @@ public class Catedra {
     public void setProfesores(Set<Profesor> profesores) {
         this.profesores = profesores;
     }
-
+    public void addProfesores(Profesor profesores) {
+        this.profesores.add(profesores);
+    }
     @Override
     public String toString() {
-        return " [ Catedra: " + nombre + " ] ";
+        return " [ " + nombre + " ] ";
     }
 }
