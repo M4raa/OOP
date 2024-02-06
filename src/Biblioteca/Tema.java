@@ -38,6 +38,6 @@ public class Tema {
 
     @Override
     public String toString() {
-        return " [ " + nombre + " ] ";
+        return " " + nombre + " ";
     }
 }

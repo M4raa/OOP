@@ -38,6 +38,6 @@ public class Autor {
 
     @Override
     public String toString() {
-        return " [ " + nombre + " ] ";
+        return nombre;
     }
 }

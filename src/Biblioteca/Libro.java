@@ -59,10 +59,12 @@ public class Libro {
     public void setEjemplares(Set<Ejemplar> ejemplares) {
         this.ejemplares = ejemplares;
     }
-
+    public void addEjemplares(Ejemplar ejemplares) {
+        this.ejemplares.add(ejemplares);
+    }
     @Override
     public String toString() {
-        return " [ " + nombre + " " + autores
-                 + " " + isbn + " " + editorial + " " + tema + " " + ejemplares +" ] ";
+        return " Título:" + nombre + "  Autor:" + autores
+                 + "  ISBN:" + isbn + "  Editorial:" + editorial + "  Tema:" + tema + "  Ejemplares:" + ejemplares;
     }
 }
