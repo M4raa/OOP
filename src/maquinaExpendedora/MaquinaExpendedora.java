@@ -43,6 +43,7 @@ public class MaquinaExpendedora {
             dineroCajon.put(2000,"20€");
             dineroCajon.put(5000,"50€");
             dineroCajon.put(10000,"100€");
+
         if ((dineroIntroducido-ticket1)>cajon){
             System.out.println("Introduce cantidad exacta:");
         } else if (dineroIntroducido<ticket1) {
@@ -50,13 +51,15 @@ public class MaquinaExpendedora {
         } else {
             String devolucion="";
             int dev=dineroIntroducido-ticket1;
+            cajon-=ticket1;
             System.out.println("Devolviendo... ");
+
             for (int i = 0; i < dinero.length; i++) {
-                int x=dev%dinero[i];
-                int y=dev/dinero[i];
-                if (y>=1){
-                    dev=dev-(dinero[i]*y);
-                    for (int j = 0; j < y; j++) {
+                int cantidad =dev/dinero[i];
+                if (cantidad >=1){
+                    dev=dev-(dinero[i]* cantidad);
+                    cajon-=dinero[i];
+                    for (int j = 0; j < cantidad; j++) {
                         devolucion+=(dineroCajon.get(dinero[i]) + " ");
                     }
                 }

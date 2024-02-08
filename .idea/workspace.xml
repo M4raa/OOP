@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21af000d-6217-40d0-bee8-75949e0ccb5f" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/subasta/Articulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subasta/Lote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subasta/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subasta/Puja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subasta/Pujador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subasta/Subasta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maquinaExpendedora/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maquinaExpendedora/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maquinaExpendedora/MaquinaExpendedora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maquinaExpendedora/MaquinaExpendedora.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707212527555</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <option name="closed" value="true" />
+      <created>1707381256715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707381256715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
