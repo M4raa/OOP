@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21af000d-6217-40d0-bee8-75949e0ccb5f" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/subasta/Articulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subasta/Lote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subasta/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subasta/Puja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subasta/Pujador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subasta/Subasta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maquinaExpendedora/MaquinaExpendedora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maquinaExpendedora/MaquinaExpendedora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subasta/Lote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subasta/Lote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subasta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subasta/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subasta/Subasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subasta/Subasta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "M4raa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c3772bb5-2782-446e-882c-51bcad77beea" />
+        <option name="url" value="https://github.com/M4raa/poo.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -111,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707381256715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <option name="closed" value="true" />
+      <created>1707384585128</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707384585128</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

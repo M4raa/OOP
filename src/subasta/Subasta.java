@@ -1,25 +1,39 @@
 package subasta;
 
-public class Subasta {
-    private int id;
-    private int dia;
+import java.util.HashSet;
+import java.util.Set;
 
-    public Subasta(int id, int dia) {
+public class Subasta {
+    private String id;
+    private String dia;
+    private Set<Lote> lotes;
+
+    public Subasta(String id, String dia) {
         this.id = id;
         this.dia = dia;
+        this.lotes = new HashSet<>();
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
-    public int getDia() {
+    public String getDia() {
         return dia;
     }
-    public void setDia(int dia) {
+    public void setDia(String dia) {
         this.dia = dia;
+    }
+    public Set<Lote> getLotes() {
+        return lotes;
+    }
+    public void setLotes(Set<Lote> lotes) {
+        this.lotes = lotes;
+    }
+    public void addLotes(Lote lotes) {
+        this.lotes.add(lotes);
     }
 
     @Override
