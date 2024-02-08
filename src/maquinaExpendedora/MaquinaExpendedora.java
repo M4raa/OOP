@@ -1,51 +1,67 @@
 package maquinaExpendedora;
 
-public class MaquinaExpendedora {
-    private double cajon;
-    private double ticket1;
-    private double ticket2;
-    private double ticket3;
+import java.util.HashMap;
 
-    public MaquinaExpendedora(double cajon,double ticket1, double ticket2, double ticket3) {
+public class MaquinaExpendedora {
+    private int cajon;
+    private int ticket1;
+
+    public MaquinaExpendedora(int cajon,int ticket1) {
         this.cajon = cajon;
         this.ticket1 = ticket1;
-        this.ticket2 = ticket2;
-        this.ticket3 = ticket3;
     }
 
-    public double getCajon() {
+    public int getCajon() {
         return cajon;
     }
-    public void setCajon(double cajon) {
+    public void setCajon(int cajon) {
         this.cajon = cajon;
     }
-    public double getTicket1() {
+    public int getTicket1() {
         return ticket1;
     }
-    public void setTicket1(double ticket1) {
+    public void setTicket1(int ticket1) {
         this.ticket1 = ticket1;
-    }
-    public double getTicket2() {
-        return ticket2;
-    }
-    public void setTicket2(double ticket2) {
-        this.ticket2 = ticket2;
-    }
-    public double getTicket3() {
-        return ticket3;
-    }
-    public void setTicket3(double ticket3) {
-        this.ticket3 = ticket3;
     }
     @Override
     public String toString() {
         return cajon + " ";
     }
-    public void pago(double dineroIntroducido, double cajon ){
-        if (dineroIntroducido>cajon){
+    public void pago(int dineroIntroducido,int ticket1 ,int cajon ){
+        int[] dinero={10000,5000,2000,1000,500,200,100,50,20,10,5,2,1};
+        HashMap<Integer,String> dineroCajon = new HashMap<>();
+            dineroCajon.put(1,"0,01€");
+            dineroCajon.put(2,"0,02€");
+            dineroCajon.put(5,"0,05€");
+            dineroCajon.put(10,"0,1€");
+            dineroCajon.put(20,"0,2€");
+            dineroCajon.put(50,"0,5€");
+            dineroCajon.put(100,"1€");
+            dineroCajon.put(200,"2€");
+            dineroCajon.put(500,"5€");
+            dineroCajon.put(1000,"10€");
+            dineroCajon.put(2000,"20€");
+            dineroCajon.put(5000,"50€");
+            dineroCajon.put(10000,"100€");
+        if ((dineroIntroducido-ticket1)>cajon){
             System.out.println("Introduce cantidad exacta:");
+        } else if (dineroIntroducido<ticket1) {
+            System.out.println("Falta dinero");
         } else {
-            System.out.println("Introduce cantidad:");
+            String devolucion="";
+            int dev=dineroIntroducido-ticket1;
+            System.out.println("Devolviendo... ");
+            for (int i = 0; i < dinero.length; i++) {
+                int x=dev%dinero[i];
+                int y=dev/dinero[i];
+                if (y>=1){
+                    dev=dev-(dinero[i]*y);
+                    for (int j = 0; j < y; j++) {
+                        devolucion+=(dineroCajon.get(dinero[i]) + " ");
+                    }
+                }
+            }
+            System.out.println(devolucion);
         }
     }
 }
