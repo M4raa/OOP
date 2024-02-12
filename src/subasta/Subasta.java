@@ -36,11 +36,24 @@ public class Subasta {
         this.lotes.add(lotes);
     }
 
+    public void cerrarSubasta(Subasta this){
+        Puja pujaGanadora = null;
+        for (Lote l:this.getLotes()) {
+            for (Puja p:l.getPujas()) {
+                if (pujaGanadora==null){
+                    pujaGanadora=p;
+                } else {
+                    if (p.getPrecioPuja()>pujaGanadora.getPrecioPuja()){
+                        pujaGanadora=p;
+                    }
+                }
+            }
+        }
+        System.out.println("Lote: " + pujaGanadora.getLote() +" adjudicado a " + pujaGanadora.getPujador() + " por: " + pujaGanadora.getPrecioPuja());
+    }
+
     @Override
     public String toString() {
         return "ID= " + id + " Dia:" + dia;
-    }
-    public void cerrarSubasta(){
-
     }
 }
