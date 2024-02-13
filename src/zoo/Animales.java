@@ -1,0 +1,22 @@
+package zoo;
+
+public abstract class Animales {
+    private String nombre;
+
+    public Animales(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
+}
