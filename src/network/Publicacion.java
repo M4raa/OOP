@@ -4,15 +4,16 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public abstract class Publicacion {
+public abstract class Publicacion{
+    private static int c=1;
     private int id;
     private Usuario usuario;
     private String hora;
     private int like;
     private Set<String> com;
 
-    public Publicacion(int id, Usuario usuario, String hora, int like) {
-        this.id = id;
+    public Publicacion(Usuario usuario, String hora, int like) {
+        this.id = c++;
         this.usuario = usuario;
         this.hora = hora;
         this.like = like;
@@ -48,14 +49,7 @@ public abstract class Publicacion {
     public void setCom(Set<String> com) {
         this.com = com;
     }
-
-    @Override
-    public String toString() {
-        return "Publicacion: " +
-                "ID: " + id +
-                " Usuario: " + usuario +
-                " Hora: " +hora +
-                " Likes: " + like +
-                " Comentarios" + com;
+    public void addCom(String com) {
+        this.com.add(com);
     }
 }

@@ -1,12 +1,11 @@
 package network;
-
 public class Ptexto extends Publicacion{
     private String msg;
 
-    public Ptexto(int id, Usuario usuario, String hora, int like, String msg) {
-        super(id, usuario, hora, like);
+    public Ptexto(Usuario usuario, String hora, int like, String msg) {
+        super(usuario, hora, like);
         this.msg = msg;
-    }
+            }
 
     public String getMsg() {
         return msg;

@@ -3,7 +3,7 @@ package network;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Usuario {
+public class Usuario implements Interfaz{
     private String usuario;
     private String nombre;
     private Set<Publicacion> publicaciones;
@@ -35,10 +35,23 @@ public class Usuario {
     public void addPublicaciones(Publicacion publicacion) {
         this.publicaciones.add(publicacion);
     }
+    @Override
+    public void buscarPublicaciones(){
+        System.out.println(getUsuario() + ": ");
+        for (Publicacion p : getPublicaciones()) {
+            System.out.println(
+                    "\t ID: " + p.getId() +
+                    "\t Hora de publicación: " + p.getMt() +
+                    "\t Likes: " + p.getLike() +
+                    "\n\t Comentarios: " + p.getCom());
+            System.out.println();
+
+        }
+    }
 
     @Override
     public String toString() {
-        return "Usuario: " + "< " + usuario + " >" +
+        return "Usuario: " + "\"" + usuario + "\"" +
                 " Nombre: " + nombre;
     }
 }

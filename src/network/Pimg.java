@@ -4,8 +4,8 @@ public class Pimg extends Publicacion{
     private String nombreA;
     private String titulo;
 
-    public Pimg(int id, Usuario usuario, String hora, int like, String nombreA, String titulo) {
-        super(id, usuario, hora, like);
+    public Pimg(Usuario usuario, String hora, int like, String nombreA, String titulo) {
+        super(usuario, hora, like);
         this.nombreA = nombreA;
         this.titulo = titulo;
     }

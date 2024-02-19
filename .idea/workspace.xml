@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21af000d-6217-40d0-bee8-75949e0ccb5f" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/network/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/Pimg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/Ptexto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/Publicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/Directivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/Oficial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/Operario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/Tecnico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabajadores/nombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/Interfaz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/Conductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/Vehiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/Pimg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/Pimg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/Ptexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/Ptexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/Publicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/Publicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +60,35 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/INFORMATICA/alu10663409/IdeaProjects/poo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Libro" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-bfa3237e" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706512540969</updated>
+      <workItem from="1708326497010" duration="8798000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -174,6 +190,9 @@
     </task>
     <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
