@@ -1,26 +1,11 @@
 package vehiculo;
-
-import java.util.Set;
-
+import vehiculo.gasolinera.Gasolinera;
 public class Electrico extends Vehiculo{
-    private double precioW;
-
-    public Electrico(String marca, String modelo, String color, int cv, int precio, String matricula) {
-        super(marca, modelo, color, cv, precio, matricula);
-        this.precioW = precioW;
-    }
-
-    public double getPrecioW() {
-        return precioW;
-    }
-
-    public void setPrecioW(double precioW) {
-        this.precioW = precioW;
+    public Electrico(String marca, String modelo, String color, int cv, int precio, Gasolinera tipo) {
+        super(marca, modelo, color, cv, precio, tipo);
     }
     @Override
-    public String toString() {
-        return "Electrico{" +
-                "precioW=" + precioW +
-                '}';
+    public void tipoCombustible() {
+        System.out.println("\t\t" + getTipo());
     }
 }

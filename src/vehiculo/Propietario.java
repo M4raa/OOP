@@ -27,12 +27,12 @@ public class Propietario {
     public void setVehiculos(Set<Vehiculo> vehiculos) {
         this.vehiculos = vehiculos;
     }
+    public void addVehiculos(Vehiculo vehiculos) {
+        this.vehiculos.add(vehiculos);
+    }
 
     @Override
     public String toString() {
-        return "Propietario{" +
-                "nombre='" + nombre + '\'' +
-                ", vehiculos=" + vehiculos +
-                '}';
+        return "Propietario: " + nombre;
     }
 }

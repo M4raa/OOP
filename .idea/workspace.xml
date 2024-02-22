@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21af000d-6217-40d0-bee8-75949e0ccb5f" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/Combustion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/Diesel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/Electrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/Gasolina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Diesel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/G95.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/G98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Gasolinera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Watt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/Tipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Precio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehiculo/Coche.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehiculo/Conductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/Propietario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/Combustion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/Combustion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/Diesel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/Electrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/Electrico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/Gasolina.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vehiculo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehiculo/Moto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/Propietario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/Propietario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vehiculo/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/gasolinera/Diesel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Diesel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/gasolinera/G95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/G95.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/gasolinera/G98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/G98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/gasolinera/Gasolinera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Gasolinera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehiculo/gasolinera/Watt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehiculo/gasolinera/Watt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -104,7 +104,8 @@
       <updated>1706512540969</updated>
       <workItem from="1708326497010" duration="9499000" />
       <workItem from="1708415360481" duration="17000" />
-      <workItem from="1708415443044" duration="5073000" />
+      <workItem from="1708415443044" duration="5440000" />
+      <workItem from="1708585598802" duration="4649000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -202,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708335587724</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update">
+      <option name="closed" value="true" />
+      <created>1708422076820</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708422076820</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,5 +220,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/vehiculo/Vehiculo.java</url>
+          <line>15</line>
+          <properties class="vehiculo.Vehiculo" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

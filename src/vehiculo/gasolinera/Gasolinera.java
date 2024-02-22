@@ -1,6 +1,6 @@
 package vehiculo.gasolinera;
 
-public abstract class Gasolinera {
+public abstract class Gasolinera implements Precio{
     private String gasolinera;
 
     public Gasolinera(String gasolinera) {

@@ -3,9 +3,9 @@ package vehiculo.gasolinera;
 public class G98 extends Gasolinera{
     private double precio;
 
-    public G98(String gasolinera, double precio) {
+    public G98(String gasolinera) {
         super(gasolinera);
-        this.precio = precio;
+        this.precio = 0;
     }
 
     public double getPrecio() {
@@ -17,7 +17,11 @@ public class G98 extends Gasolinera{
     }
 
     @Override
+    public void precioActual(double precio) {
+        this.precio = precio;
+    }
+    @Override
     public String toString() {
-        return super.toString() + " Tipo: " + getClass() + " Precio: " + precio;
+        return super.toString() + " Precio: " + precio + "€";
     }
 }
